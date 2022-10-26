@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.header-wrapper . {
+.header-wrapper {
   width: 100%;
 }
 .header-wrapper .more-inf {
@@ -18,9 +18,11 @@ body {
 }
 
 @media (max-width:768px) {
-.header-wrapper { 
+
+  .header-wrapper { 
   text-align: center;
-}
+  }
+
 }
 .input-section-wrapper {
   display: block;
@@ -141,7 +143,8 @@ body {
 }
 
 /* Completed */
-#completed-tasks .task-label {
+#completed-tasks
+.task-label {
   text-decoration: line-through;
   color: #888;
 }
