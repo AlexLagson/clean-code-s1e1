@@ -45,14 +45,14 @@ body {
 .completed-tasks-item,
 .incomplete-tasks-item,
 .title {
-  list-style:none;
+  list-style: none;
 }
 .checkbox,
 .task-input
 .add-btn,
 .edit-btn,
 .delete-btn{
-  outline:none;
+  outline: none;
 }
 .add-btn,
 .edit-btn,
@@ -151,14 +151,14 @@ body {
 
 /* Edit Task */
 .item-input {
-  display:none
+  display: none
 }
 
 .editMode .item-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .editMode .task-label {
-  display:none;
+  display: none;
 }
