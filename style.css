@@ -8,12 +8,13 @@ body {
   width: 1024px;
   margin: 0 auto;
   display: block;
-  text-align: right;
+  text-align: center;
 }
 .header-wrapper {
   width: 100%;
 }
-.header-wrapper .more-inf {
+.header-wrapper 
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -154,11 +155,13 @@ body {
   display: none;
 }
 
-.editMode .item-input {
+.editMode 
+.item-input {
   display: inline-block;
   width: 224px;
 }
 
-.editMode .task-label {
+.editMode 
+.task-label {
   display: none;
 }
